@@ -42,7 +42,7 @@
 							<div class="mdl-tabs__tab-bar">
 								<a href="#tab1-panel" class="mdl-tabs__tab is-active">Home</a>
 								<a href="#tab2-panel" class="mdl-tabs__tab">Video</a>
-								<a href="#tab3-panel" class="mdl-tabs__tab">Tab 3</a>
+								<a href="#tab3-panel" class="mdl-tabs__tab">Images</a>
 								<a href="#tab4-panel" class="mdl-tabs__tab">Contact</a>
 							</div>
 
@@ -51,7 +51,7 @@
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab2-panel">
-								<h1>Video</h1>
+								<h1 style="text-align: center;">Video</h1>
 								<video id="video" width="800" height="480" controls>
 									<source src="video/clip.mp4" type="video/mp4">
 									Your browser does not support the video tag.
@@ -59,11 +59,11 @@
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab3-panel">
-								<h1>sjors boosj</h1>
+								<h1 style="text-align: center;">Wow, placeholder text.</h1>
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab4-panel">
-								<h1>Contact</h1>
+								<h1 style="text-align: center;">Contact</h1>
 
 								<div id="mycard">
 
@@ -77,60 +77,31 @@
 											First, tell us how to get in touch with you!
 											<form name="contact" method="POST" data-netlify="true">
 
-												<div id="name">
-													<div
-														class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-														<input class="mdl-textfield__input" type="text" name="name"
-															id="name">
-														<label class="mdl-textfield__label" for="sample3">First
-															Name</label>
-													</div>
-												</div>
-
-												<div id="contact">
-													<div id="email">
-														<div
-															class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-															<input class="mdl-textfield__input" type="email"
-																name="email">
-															<label class="mdl-textfield__label"
-																for="sample2">E-mail</label>
-															<span class="mdl-textfield__error">Enter a valid
-																email!</span>
-														</div>
-													</div>
-												</div>
-												<div id="message">
-													<div
-														class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-														<input class="mdl-textfield__input" type="message"
-															name="message">
-														<label class="mdl-textfield__label"
-															for="sample2">Message</label>
-													</div>
-												</div>
-											</form>
+												<p>
+													<label>Your Name: <input type="text" name="name" /></label>
+												</p>
+												<p>
+													<label>Your Email: <input type="email" name="email" /></label>
+												</p>
+												<p>
+													<label>Your Role: <select name="role[]" multiple>
+															<option value="leader">Leader</option>
+															<option value="follower">Follower</option>
+														</select></label>
+												</p>
+												<p>
+													<label>Message: <textarea name="message"></textarea></label>
+												</p>
+												<p>
+													<button type="submit">Send</button>
+												</p>
 										</div>
-
-
-
-
-									</div>
-
-									<!-- FAB button with ripple -->
-									<div id="submit">
-										<button type="submit"
-											class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-											<i class="material-icons">arrow_forward</i>
-										</button>
 									</div>
 								</div>
 							</div>
-						</div>
-				</div>
-		</main>
+					</main>
 
-	</div>
+				</div>
 </body>
 
 </html>
