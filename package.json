@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "This is the website that I have to create for an exam assignment.\r It can be visited [here](https://keanuplayz.github.io/exam-site/).",
   "main": "index.html",
-  "dependencies": {
-    "material-components-web": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {},
   "repository": {

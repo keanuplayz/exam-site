@@ -41,21 +41,21 @@
 						<div class="mdl-tabs mdl-js-tabs">
 							<div class="mdl-tabs__tab-bar">
 								<a href="#tab1-panel" class="mdl-tabs__tab is-active">Home</a>
-								<a href="#tab2-panel" class="mdl-tabs__tab">Details</a>
+								<a href="#tab2-panel" class="mdl-tabs__tab">Video</a>
 								<a href="#tab3-panel" class="mdl-tabs__tab">Tab 3</a>
 								<a href="#tab4-panel" class="mdl-tabs__tab">Contact</a>
 							</div>
 
 							<div class="mdl-tabs__panel is-active" id="tab1-panel">
 								<img class="logo" src="img/comiclogo.jpg" alt="Logo">
-								<button id="doorgaan"
-									class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
-									doorgaan
-								</button>
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab2-panel">
-								<h1>tr00mp</h1>
+								<h1>Video</h1>
+								<video id="video" width="800" height="480" controls>
+									<source src="video/clip.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab3-panel">
@@ -119,7 +119,8 @@
 
 									<!-- FAB button with ripple -->
 									<div id="submit">
-										<button type="submit" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+										<button type="submit"
+											class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">
 											<i class="material-icons">arrow_forward</i>
 										</button>
 									</div>
