@@ -48,7 +48,8 @@
 
 							<div class="mdl-tabs__panel is-active" id="tab1-panel">
 								<img class="logo" src="img/comiclogo.jpg" alt="Logo">
-								<button id="doorgaan" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
+								<button id="doorgaan"
+									class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect">
 									doorgaan
 								</button>
 							</div>
@@ -63,6 +64,27 @@
 
 							<div class="mdl-tabs__panel" id="tab4-panel">
 								<h1>Contact</h1>
+
+								<form name="contact" method="POST" data-netlify="true">
+									<p>
+										<label>Your Name: <input type="text" name="name" /></label>
+									</p>
+									<p>
+										<label>Your Email: <input type="email" name="email" /></label>
+									</p>
+									<p>
+										<label>Your Role: <select name="role[]" multiple>
+												<option value="leader">Teacher</option>
+												<option value="follower">Student</option>
+											</select></label>
+									</p>
+									<p>
+										<label>Message: <textarea name="message"></textarea></label>
+									</p>
+									<p>
+										<button type="submit">Send</button>
+									</p>
+								</form>
 							</div>
 						</div>
 				</div>
