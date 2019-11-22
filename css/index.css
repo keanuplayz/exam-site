@@ -1,0 +1,18 @@
+.logo {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 5%;
+    transform: scale(1.5);    
+}
+
+#doorgaan {
+    position: absolute;
+    margin: auto;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    transform: scale(2);
+}
