@@ -4,13 +4,10 @@
   "description": "This is the website that I have to create for an exam assignment.\r It can be visited [here](https://keanuplayz.github.io/exam-site/).",
   "main": "index.html",
   "dependencies": {
-    "http": "^0.0.0",
     "material-components-web": "^4.0.0"
   },
   "devDependencies": {},
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keanuplayz/exam-site.git"
