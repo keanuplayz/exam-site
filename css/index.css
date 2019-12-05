@@ -3,14 +3,15 @@
     src: url('fonts/quitemagical.ttf') format('truetype');
 }
 
-.logo {
+#spoder {
     margin: auto;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    transform: scale(1.15);
+    transform: scale(0.45);
+    border-radius: 30px;
 }
 
 .info {
@@ -106,3 +107,23 @@
     width: 250px;
     margin-right: 10px;
 }
+
+/* PAGE2 */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 460px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
