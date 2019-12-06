@@ -2,8 +2,14 @@ p {
     font-family: sans-serif;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
     font-family: quitemagical;
+}
+
+.darkblue {
+    color: #a2a7ba;
 }
 
 @font-face {
@@ -119,19 +125,17 @@ h1, h2, h4 {
 /* PAGE2 */
 * {
     box-sizing: border-box;
-  }
-  
-  /* Create three equal columns that floats next to each other */
-  .column {
+}
+
+.column {
     float: left;
     width: 33.33%;
     padding: 10px;
     height: 460px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
