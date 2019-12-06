@@ -1,0 +1,14 @@
+name: HTMLProofer
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: HTMLProofer
+      uses: chabad360/htmlproofer@v1.1
+      with:
+       directory: /
