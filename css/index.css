@@ -1,3 +1,11 @@
+p {
+    font-family: sans-serif;
+}
+
+h1, h2, h4 {
+    font-family: quitemagical;
+}
+
 @font-face {
     font-family: 'quitemagical';
     src: url('fonts/quitemagical.ttf') format('truetype');
