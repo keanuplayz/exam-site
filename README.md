@@ -5,4 +5,11 @@ It can be visited [here](https://keanuplayz.github.io/exam-site/).
 ## Locally running
 1. Download or clone into this repository.
 2. Run `npm install` in the repo directory.
-3. Use Apache XAMPP to easily start a web server in the repo directory.
+3. Use a preferred program to start a web server in the repo directory.
+
+There are multiple ways to easily start a web server. a small list is:
+* ApacheHaus
+* Apache Lounge
+* Bitnami WAMP Stack
+* WampServer
+* XAMPP
