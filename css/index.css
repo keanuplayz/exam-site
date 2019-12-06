@@ -1,5 +1,6 @@
 p {
     font-family: sans-serif;
+    font-size: large;
 }
 
 h1,
@@ -24,7 +25,7 @@ h4 {
     right: 0;
     top: 0;
     bottom: 0;
-    transform: scale(0.45);
+    height: 400px;
     border-radius: 30px;
 }
 
