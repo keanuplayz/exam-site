@@ -4,6 +4,15 @@ p {
     color: white;
 }
 
+.frontpage {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
 .columntext{
     color: white;
 }
