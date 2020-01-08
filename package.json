@@ -4,8 +4,12 @@
   "description": "This is the website that I have to create for an exam assignment.\r It can be visited [here](https://keanuplayz.github.io/exam-site/).",
   "main": "index.html",
   "dependencies": {},
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "html-linter": "^1.1.1"
+  },
+  "scripts": {
+      "lint": "html-linter --config html-linter.json **/*.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keanuplayz/exam-site.git"
