@@ -8,7 +8,7 @@
     "html-linter": "^1.1.1"
   },
   "scripts": {
-      "lint": "html-linter --config html-linter.json **/*.html"
+    "lint": "html-linter --config html-linter.json **/*.html"
   },
   "repository": {
     "type": "git",
