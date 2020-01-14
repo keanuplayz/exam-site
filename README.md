@@ -22,6 +22,14 @@ There are multiple ways to easily start a web server. a small list is:
 
 All notable changes to this project will be documented in this file.
 
+## 2020-01-14
+
+### Added
+
+* Added new info page
+* Added table to CSS libraries
+* Completed the site!
+
 ## 2020-01-07
 
 ### Added
