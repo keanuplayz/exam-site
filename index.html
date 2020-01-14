@@ -28,6 +28,8 @@
 				<div class="mdl-layout-spacer"></div>
 				<nav class="mdl-navigation hide">
 					<a href="#" class="mdl-navigation__link">Home</a>
+					<a href="https://blariacum.nl" class="mdl-navigation__link">Blariacum</a>
+					<a href="https://keanucode.herokuapp.com" class="mdl-navigation__link">Persoonlijk</a>
 				</nav>
 			</div>
 		</header>
@@ -35,6 +37,8 @@
 		<div class="mdl-layout__drawer show_drawer">
 			<nav class="mdl-navigation show">
 				<a href="#" class="mdl-navigation__link">Home</a>
+				<a href="https://blariacum.nl" class="mdl-navigation__link">Blariacum</a>
+				<a href="https://keanucode.herokuapp.com" class="mdl-navigation__link">Persoonlijk</a>
 			</nav>
 		</div>
 
@@ -45,84 +49,230 @@
 						<div class="mdl-tabs mdl-js-tabs">
 							<div class="mdl-tabs__tab-bar">
 								<a href="#tab1-panel" class="mdl-tabs__tab is-active">Home</a>
-								<a href="#tab2-panel" class="mdl-tabs__tab">Video</a>
-								<a href="#tab3-panel" class="mdl-tabs__tab">Images</a>
-								<a href="#tab4-panel" class="mdl-tabs__tab">Contact</a>
+								<a href="#tab2-panel" class="mdl-tabs__tab">Workshops</a>
+								<a href="#tab3-panel" class="mdl-tabs__tab">Activiteiten</a>
+								<a href="#tab4-panel" class="mdl-tabs__tab">Algemeen</a>
+								<a href="#tab5-panel" class="mdl-tabs__tab">Info</a>
 							</div>
 
 							<div class="mdl-tabs__panel is-active" id="tab1-panel">
-								<img class="logo" src="img/comiclogo.jpg" alt="Logo">
+								<img id="logo" src="img/helden.png" alt="logo">
+								<img id="comiclogo" src="docs/vr_beeld_gl/logo1.jpg" alt="comiclogo">
+
+								<div class="row">
+									<div class="column1" style="background-color:#32a852;">
+										<h2 class="columntext"></h2>
+										<p>
+										</p>
+									</div>
+									<div class="column1" style="background-color:#317ea8;">
+										<h2 class="columntext"></h2>
+										<p>
+										</p>
+									</div>
+									<div class="column1" style="background-color:#3137a8;">
+										<h2 class="columntext"></h2>
+										<p>
+										</p>
+									</div>
+								</div>
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab2-panel">
-								<h1 style="text-align: center;">Video</h1>
-								<video id="video" width="800" height="480" controls>
-									<source src="video/clip.mp4" type="video/mp4">
-									Your browser does not support the video tag.
-								</video>
+								<h1 style="text-align: center;">Workshops!</h1>
+								<h3 style="text-align: center;">Er zijn drie workshops op 30 juni.
+									Er liggen inschrijfformulieren bij de informatiebalie.
+									Vol is vol, dus schrijf je op tijd in!
+								</h3>
+								<div class="row">
+									<div class="column2" style="background-color:#32a852;">
+										<h2 class="columntext">Workshop: Hoe teken je een held?</h2>
+										<p>Een bekende striptekenaar laat in deze workshop tips en trucs zien.
+											Bijvoorbeeld hoe je je eigen superheld kunt schetsen en uitwerken in kleur.
+											Ook de indeling van een pagina en het gebruik van tekstballonnen binnen het
+											stripverhaal komen aan bod.
+										</p>
+										<video id="video" width="800" height="480" controls>
+											<source src="docs/vr_film-animatie_gl/2 workshop 2.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="column2" style="background-color:#317ea8;">
+										<h2 class="columntext">Workshop: Laten bewegen, zo doe je dat!</h2>
+										<p>Deze workshop gaat een stap verder in de animatietechniek: hoe kun je jouw
+											eigen stripfiguur laten bewegen. Basisbewegingen zoals lopen, springen en
+											vliegen komen aan de orde. Hoeveel tussenstappen zijn er nodig? Hoe kun je
+											de bewegingen versterken door gebruik te maken van vervorming en
+											perspectief?
+										</p>
+										<div class="uk-text-center">
+											<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+												<img class="borderimg" src="docs/vr_beeld_gl/workshop 3.jpg" alt="">
+												<img class="uk-transition-scale-up uk-position-cover"
+													src="docs/vr_beeld_gl/workshop 4.jpg" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="column2" style="background-color:#3137a8;">
+										<h2 class="columntext">Workshop: Werk met animatiesoftware!</h2>
+										<p>De eerste beginselen om je held daadwerkelijk digitaal over
+											het scherm te laten
+											bewegen leer je in deze basiscursus.
+											Aan het eind van de cursus kun je geanimeerde tekstballonnen maken. Of
+											beweegt
+											jouw digitale held over het scherm!
+										</p>
+										<video id="video" width="800" height="480" controls>
+											<source src="docs/vr_film-animatie_gl/2 workshop 1.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+								</div>
+
 							</div>
 
 							<div class="mdl-tabs__panel" id="tab3-panel">
-								<h1 style="text-align: center;">Wow, placeholder text.</h1>
+								<h1 style="text-align: center;">Activiteiten</h1>
+								<h3 style="text-align: center;">Er zijn een aantal activiteiten waar je aan mee kunt
+									doen. Hier staan ze makkelijk op een rijtje!</h3>
+								<div class="row">
+									<div class="column3" style="background-color:#32a852;">
+										<h2 class="columntext">Met je held op de foto</h2>
+										<p>Bij Comics & Heroes kun je samen met je favoriete comicheld op de foto!
+											Met behulp van een greenscreen-opname kun je een actieshot laten maken samen
+											met je held en een bijpassende achtergrond. Alsof je een rol speelt in de
+											actiefilm!
 
-								<div class="uk-text-center">
-									<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-										<img src="img/comiclogo.jpg" alt="">
-										<img class="uk-transition-scale-up uk-position-cover" src="img/rollover.jpg" alt="">
+										</p>
+										<div class="uk-text-center">
+											<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+												<img class="borderimg" src="docs/vr_beeld_gl/held + foto 2.jpg" alt="">
+												<img class="uk-transition-scale-up uk-position-cover"
+													src="docs/vr_beeld_gl/held + foto 1.jpg" alt="">
+											</div>
+										</div>
 									</div>
-									<p class="uk-margin-small-top">2 Images</p>
-								</div>
-
-								<div class="uk-text-center">
-									<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-										<img src="img/comiclogo.jpg" alt="">
-										<img class="uk-transition-scale-up uk-position-cover" src="img/rollover.jpg" alt="">
+									<div class="column3" style="background-color:#317ea8;">
+										<h2 class="columntext">3D Virtuality & Movies</h2>
+										<p>Van 17.00 tot 18.00 uur wordt een lezing gegeven over de Pokemon-hype uit
+											2016.
+											Vanaf 19.00 draaien in de grote filmzaal de nieuwste helden- en
+											avonturenfilms.
+											Vooraf wordt de ‘making of’ getoond van deze films. Daarin zie je wat er
+											allemaal komt kijken bij het maken van zulke actiefilms.
+										</p>
+										<div class="uk-text-center">
+											<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+												<img class="borderimg" src="docs/vr_beeld_gl/3D + movie 3.jpg" alt="">
+												<img class="uk-transition-scale-up uk-position-cover"
+													src="docs/vr_beeld_gl/3D + movie 2.jpg" alt="">
+											</div>
+										</div>
 									</div>
-									<p class="uk-margin-small-top">2 Images</p>
-								</div>
+									<div class="column3" style="background-color:#3137a8;">
+										<h2 class="columntext">Gaming & Comics</h2>
+										<p>Hal 2 is helemaal ingericht voor het betere gamewerk. Grote
+											schermen maken
+											het mogelijk om samen de nieuwste games uit te proberen. Maar er is ook een
+											mogelijkheid om in je eigen gamewereld te stappen. Dit alles met
+											fantastische geluidseffecten.
+										</p>
+										<div class="uk-text-center">
+											<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+												<img class="borderimg" src="docs/vr_beeld_gl/gaming & comics 2.jpg"
+													alt="">
+												<img class="uk-transition-scale-up uk-position-cover"
+													src="docs/vr_beeld_gl/gaming & comics 1.jpg" alt="">
+											</div>
+										</div>
+									</div>
 
+								</div>
 							</div>
-
 							<div class="mdl-tabs__panel" id="tab4-panel">
-								<h1 style="text-align: center;">Contact</h1>
-
-								<div id="mycard">
-
-									<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-										<div class="mdl-card__title">
-											<h2 class="mdl-card__title-text">Contact details</h2>
+								<h1 style="text-align: center;">Algemeen</h1>
+								<h3 style="text-align: center;">De inwendige mens, afsluiting, actueel.</h3>
+								<div class="row">
+									<div class="column4" style="background-color:#32a852;">
+										<h2 class="columntext">Catering</h2>
+										<p>In de hal Food & Drinks zijn meerdere stands die tijdens Comic & Heroes
+											speciale menu’s aanbieden. Bij het tonen van je toegangsbewijs krijg je op
+											deze gerechten 10 tot 25% korting. Eet smakelijk en geniet ervan! </p>
+										<div class="uk-text-center">
+											<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+												<img class="borderimg" src="docs/vr_beeld_gl/speciale menu's 1_50.jpg"
+													alt="">
+												<img class="uk-transition-scale-up uk-position-cover"
+													src="docs/vr_beeld_gl/speciale menu's 3_50.jpg" alt="">
+											</div>
 										</div>
-
-
-										<div class="mdl-card__supporting-text">
-											First, tell us how to get in touch with you!
-											<form name="contact" method="POST" data-netlify="true">
-
-												<p>
-													<label>Your Name: <input type="text" name="name" /></label>
-												</p>
-												<p>
-													<label>Your Email: <input type="email" name="email" /></label>
-												</p>
-												<p>
-													<label>Your Role: <select name="role[]" multiple>
-															<option value="leader">Leader</option>
-															<option value="follower">Follower</option>
-														</select></label>
-												</p>
-												<p>
-													<label>Message: <textarea name="message"></textarea></label>
-												</p>
-												<p>
-													<button type="submit">Send</button>
-												</p>
+									</div>
+									<div class="column4" style="background-color:#317ea8;">
+										<h2 class="columntext">Super Hero Party</h2>
+										<p>Als afsluiting van dit prachtige event is er een speciale Super Hero Party!
+											Vanaf 17.00 uur zijn er in de grote hal diverse liveoptredens van
+											verschillende bands. Deze optredens worden afgewisseld met DJ Comic, die de
+											zaal zal laten swingen met zijn spectaculaire optreden en bijpassende
+											lichtshow.
+										</p>
+										<div class="uk-text-center">
+											<div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+												<img class="borderimg" src="docs/vr_beeld_gl/super hero party 2_50.jpg"
+													alt="">
+												<img class="uk-transition-scale-up uk-position-cover"
+													src="docs/vr_beeld_gl/super hero party 3.jpg" alt="">
+											</div>
 										</div>
+									</div>
+									<div class="column4" style="background-color:#3137a8;">
+										<h2 class="columntext">Actualiteiten & de laatste nieuwtjes</h2>
+										<p>Er kunnen veranderingen en kleine verschuivingen optreden in
+											het
+											dagprogramma. Kijk voor het actuele nieuws op de grote schermen in de
+											verschillende hallen en/of kijk op je mobiele telefoon. Surf naar
+											www.comicsheroes.nl
+										</p>
 									</div>
 								</div>
 							</div>
+							<div class="mdl-tabs__panel" id="tab5-panel">
+								<h1 class="infotext">Info</h1>
+								<h4 class="infotext">Deze website is gemaakt door <a href="https://github.com/keanuplayz">Keanu Timmermans</a>.</h4>
+								<h4 class="infotext"><a href="https://github.com/keanuplayz/exam-site/tree/dev/">Website GitHub Repo</a></h4>
+								<h4 class="infotext">Gebruikte CSS libraries zijn:</h4>
+								<table>
+									<tr>
+									  <th>Naam</th>
+									  <th>Homepage</th>
+									  <th>GitHub</th>
+									  <th>Licentie</th>
+									</tr>
+									<tr>
+									  <td>Material Design Lite</td>
+									  <td><a href="https://getmdl.io">Homepage</a></td>
+									  <td><a href="https://github.com/google/material-design-lite">GitHub</a></td>
+									  <td><a href="https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE">Apache License 2.0</a></td>
+									</tr>
+									<tr>
+									  <td>UIKit</td>
+									  <td><a href="https://getuikit.com/">Homepage</a></td>
+									  <td><a href="https://github.com/uikit/uikit">GitHub</a></td>
+									  <td><a href="https://github.com/uikit/uikit/blob/develop/LICENSE.md">MIT License</a></td>
+									</tr>
+								</table>
+								<br>
+								<h3 class="infotext">Andere links:</h3>
+								<h4 class="infotext"><a href="https://blariacum.nl">Blariacumcollege</a></h4>
+								<h4 class="infotext"><a href="https://keanucode.herokuapp.com">Mijn website</a></h4>
+								<h4 class="infotext">Email: <a
+										href="mailto:keanutimmermans8@gmail.com">keanutimmermans8@gmail.com</a></h4>
+							</div>
+						</div>
 					</main>
-
 				</div>
+			</div>
+		</main>
+	</div>
 </body>
 
 </html>
